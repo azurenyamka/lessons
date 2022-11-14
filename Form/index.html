@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="register.html" method="post">
+        <div>
+            <label for="lastname">Lastname</label>
+            <input id="lastname" name="lastname" type="text">
+        </div>
+        <div>
+            <label for="firstname">Firstname</label>
+            <input id="firstname" name="firstname"  type="text">
+        </div>
+        <div>
+            <label for="Email">Email</label>
+            <input id="Email" name="Email"  type="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+        </div>
+        <div>
+            <input id="forgot" type="checkbox">
+            <label for="forgot">Remember password</label>
+        </div>
+        <div>
+            <input id="male" name="gender" value="male" type="radio">
+            <label for="male">Male</label>
+
+            <input id="female" name="gender" value="female" type="radio">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="Date">Date</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="location">Street</label>
+            <select name="location" id="location">
+                <option value="Baynzurkh">Baynzurkh</option>
+                <option value="Sukhbaatar">Sukhbaatar</option>
+                <option value="Khan-Uul">Khan-Uul</option>
+                <option value="Chingeltei">Chingeltei</option>
+                <option value="Songino Khairkhan">Songino Khairkhan</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="description" id="desc" cols="30" rows="10" placeholder="Description"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Register">
+            <label for="submit"></label>
+        </div>
+    </form>
+</body>
+</html>
