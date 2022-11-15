@@ -11,7 +11,33 @@
 }
 .register   {
     max-width: 1280px;
-    height: ;
+    height:80vh;
+    display: flex;
+    padding: 100px 0;
+    margin: 0 auto;
+    font-size: 20px;
+}
+input {
+    
+}
+.register-left  {
+    flex: 1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+    color: rgb(38, 84, 157);
+}
+.register-left  h1{
+    margin: 50px 0 50px 50px;
+}
+.form   {
+    margin: 0 0 0 60px;
+}
+.register-right {
+    flex: 1;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color:rgb(58, 58, 193) ;
 }
 /* rgba(137, 176, 223)
 rgb(224, 224, 224)

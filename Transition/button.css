@@ -1,0 +1,26 @@
+
+.Transition {
+    width: 200px;
+    height: 100px;
+    background-color:grey;
+    border-radius: 60px;
+    transition: all 1s;
+    border-style: solid;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow:5px 2px 3px ;
+    transition-duration: 0.5s;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="checkbox"]:checked + .Transition .circle {
+    margin-left: 100px;
+} 
+input[type="checkbox"]:checked + .Transition {
+    background-color: rgb(70, 103, 202);
+}
