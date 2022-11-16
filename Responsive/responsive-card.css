@@ -1,0 +1,9 @@
+.section-1  {
+    max-width: 854px;
+    max-height: 300px;
+    background-color: aqua;
+}
+.section-1 img {
+    width: 854px;
+    max-height: 100%;
+}

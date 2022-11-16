@@ -1,0 +1,22 @@
+*{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color:salmon;
+}
+.logo   {
+    font-size: 30px;
+}
+nav ul{
+    font-size: 20px;
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
