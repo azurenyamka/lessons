@@ -1,0 +1,12 @@
+*   {
+    margin: 0;
+    box-sizing: border-box;
+}
+.blue   {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+input[type="checkbox"]:checked + .blue  {
+    max-width: 100%;
+}
