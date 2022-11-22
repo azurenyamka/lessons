@@ -1,0 +1,74 @@
+*   {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container  {
+    max-width: 600px;
+    height: 600px;
+    margin: 20vh auto;
+    border: solid black;
+    position: relative;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    transition: all 1s;
+}
+.second {
+    background-color: rgb(247, 172, 185);
+    box-shadow: none;
+}
+.square-1   {
+    left: 180px;
+    top: 180px;
+}
+.square-2   {
+    left: 180px;
+    bottom: 180px;
+}
+.square-3   {
+    right: 180px;
+    top: 180px;
+}
+.square-4   {
+    right: 180px;
+    bottom: 180px;
+}
+.square-5   {
+    left: 180px;
+    top: 180px;
+}
+.square-6   {
+    left: 180px;
+    bottom: 180px;
+}
+.square-7   {
+    right: 180px;
+    top: 180px;
+}
+.square-8   {
+    right: 180px;
+    bottom: 180px;
+}
+.container:hover .second    {
+    background-color: rgb(241, 116, 137);
+}
+.container:hover .square-5 {
+    left: 0;
+    top: 0;
+}
+.container:hover .square-6  {
+    left: 0;
+    bottom: 0;
+}
+.container:hover .square-7  {
+    right: 0;
+    top: 0;
+}
+.container:hover .square-8  {
+    right: 0;
+    bottom: 0;
+}

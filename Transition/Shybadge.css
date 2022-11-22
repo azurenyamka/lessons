@@ -1,0 +1,38 @@
+*   {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+.container  {
+    max-width: 500px;
+    height: 150px;
+    background-color:gray;
+    margin: 40vh auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: all 0.5s;
+}
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: -35px;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: all 1s;
+}
+.container:hover {
+    background-color: red;
+}
+.container:hover .circle    {
+    right:200px;
+    top: 45px;
+    z-index: -1;
+}
