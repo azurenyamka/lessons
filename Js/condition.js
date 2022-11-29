@@ -53,21 +53,21 @@ let iix = 4 !== 4; //false
 let ix = 4 != "4"; //false
 let x = 4 == "4";//true
 let xi = 4 === "4";//false
-console.log ("1.")
-console.log (i)
-console.log (iii)
-console.log (ii)
-console.log (iv)
-console.log (v)
-console.log (vi)
-console.log (vii)
-console.log (iix)
-console.log (ix)
-console.log (x)
-console.log (xi)
+console.log ("1.");
+console.log (i);
+console.log (iii);
+console.log (ii);
+console.log (iv);
+console.log (v);
+console.log (vi);
+console.log (vii);
+console.log (iix);
+console.log (ix);
+console.log (x);
+console.log (xi);
 
 
-console.log ("2.")
+console.log ("2.");
 let one = 4 > 3 && 10 < 12;//1
 let two = 4 > 3 && 10 > 12;//0
 let three = 4 > 3 || 10 < 12;//1
@@ -78,15 +78,16 @@ let eight = !(4 > 3 && 10 < 12);//0
 let nine = !(4 > 3 && 10 > 12);//1
 let ten = !(4 === "4");//true
 
-console.log(one)
-console.log(two)
-console.log(three)
-console.log(four)
-console.log(five)
-console.log(six)
-console.log(eight)
-console.log(nine)
-console.log(ten)
+console.log(one);
+console.log(two);
+console.log(three);
+console.log(four);
+console.log(five);
+console.log(six);
+console.log(eight);
+console.log(nine);
+console.log(ten);
 
 
 console.log("3.")
+console.log("git ynzlav.")
