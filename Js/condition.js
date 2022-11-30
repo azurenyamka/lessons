@@ -89,5 +89,26 @@ console.log(nine);
 console.log(ten);
 
 
-console.log("3.")
-console.log("git ynzlav.")
+// console.log("3.");
+// let myAge = ""
+// let yourAge =""
+// let nas = ""
+
+// yourAge  = Number (prompt ("Та насаа оруулна уу."));
+// myAge = Number (prompt("Та насаа оруулна уу."));
+// if (myAge > yourAge){
+//     console.log("Chi");
+// }else{
+//     console.log("Ta")
+// }
+console.log("4.");
+let weekend = ""
+let weekday = ""
+let udur = ""
+// weekend = prompt("Ta udruu oruulna uu.")
+udur = prompt("Ta udruu oruulna uu.")
+if (udur == "monday" || udur == "thursday" || udur  == "wednesday" || udur == "tuesday" || udur  == "friday"){
+    console.log("ajliin udur");
+}else if( udur  == "saturday" || udur =="sunday"){
+    console.log("amraltiin udur");
+}
