@@ -101,14 +101,16 @@ console.log(ten);
 // }else{
 //     console.log("Ta")
 // }
-console.log("4.");
-let weekend = ""
-let weekday = ""
-let udur = ""
-// weekend = prompt("Ta udruu oruulna uu.")
-udur = prompt("Ta udruu oruulna uu.")
-if (udur == "monday" || udur == "thursday" || udur  == "wednesday" || udur == "tuesday" || udur  == "friday"){
-    console.log("ajliin udur");
-}else if( udur  == "saturday" || udur =="sunday"){
-    console.log("amraltiin udur");
-}
+// console.log("4.");
+// let weekend = ""
+// let weekday = ""
+// let udur = ""
+// // weekend = prompt("Ta udruu oruulna uu.")
+// udur = prompt("Ta udruu oruulna uu.")
+// if (udur == "monday" || udur == "thursday" || udur  == "wednesday" || udur == "tuesday" || udur  == "friday"){
+//     console.log("ajliin udur");
+// }else if( udur  == "saturday" || udur =="sunday"){
+//     console.log("amraltiin udur");
+// }
+let hours = 40
+let ratePerHour = 28
