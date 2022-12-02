@@ -33,3 +33,39 @@
 //     counter += 1;
 // }
 // console.log (sum);
+
+// N хүртэлх натурал тооны хэвлэх болон тэдгээр тооны нийлбэрийг олох программ бич
+// let counter = 0;
+// let sum = 0;
+// let N = "Та дурын тоогоо оруулна уу."
+
+// N = prompt("Та дурын тоогоо оруулна уу.")
+// while (counter <= N){
+//     console.log (counter);
+//     sum += counter ;
+//     counter++;
+// }
+// console.log (sum)
+
+
+// Өгөгдсөн тоог анхны мөн эсэхийг олох программ бич
+let random = parseInt (prompt("Та дурын тоогоо оруулна уу."));
+let isPrime = true;
+
+if (random === 2){
+    console.log(`${random} бол анхны тоо мөн.`);
+} else {
+    let i = 2;
+    while (i < random) {
+        if (random % i === 0) {
+            isPrime = false;
+            break;
+        }
+        i++;
+    }
+    if  (isPrime) {
+        console.log(`${random} бол анхны тоо мөн.`);
+    } else {
+        console.log(`${random} бол анхны тоо биш.`)
+    }
+}
