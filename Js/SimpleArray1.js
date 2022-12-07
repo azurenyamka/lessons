@@ -1,5 +1,5 @@
 // Array - ын хувьсагчийг itCompanies гэж зарлаж, Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon зэрэг анхны утгыг оруулна уу. 
-let itCompanies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon']
+let itCompanies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon'];
 
 // 1. console.log() ашиглан array хэвлэх
 // console.log(itCompanies)
@@ -18,3 +18,6 @@ let itCompanies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazo
 // }
 
 // Компанийн нэр тус бүрийг нэг нэгээр нь том үсгээр сольж хэвлэж гарга
+// for(let i = 0; i < itCompanies.length; i++){
+//     console.log(itCompanies[i].toUpperCase());
+// }
