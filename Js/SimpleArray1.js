@@ -13,3 +13,8 @@ let itCompanies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazo
 // console.log(itCompanies[itCompanies.length - 1]);
 
 // 4.Компани бүрийг хэвлэх
+// for(let i = 0; i < itCompanies.length; i++){
+//     console.log(itCompanies[i]);
+// }
+
+// Компанийн нэр тус бүрийг нэг нэгээр нь том үсгээр сольж хэвлэж гарга
