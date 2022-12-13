@@ -8,4 +8,4 @@ let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 
 // console.log(itCompanies.slice(4,7))
 
 // Мэдээллийн технологийн дунд компани эсвэл компаниудыг arrey - аас хайчилж ав
-console.log(itCompanies)
+console.log(itCompanies.slice());
