@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One';
+}
+.towns  {
+    max-width: 500px;
+    font-size: 50px;
+    color: slategray;
+    border: solid black 2px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+

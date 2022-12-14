@@ -21,3 +21,6 @@ let itCompanies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazo
 // for(let i = 0; i < itCompanies.length; i++){
 //     console.log(itCompanies[i].toUpperCase());
 // }
+
+// Array - г өгүүлбэр болгон хэвлэ: Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon зэрэг мэдээллийн технологийн томоохон компаниуд.
+
