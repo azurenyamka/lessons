@@ -17,8 +17,10 @@ header.innerHTML = cap;
 const main = document.getElementsByTagName("main");
 const container = `
 <div class="list">
-    <input 
+    <input id="tasks" type="text" name="task" placeholder="Put your task name please.">
+    <button id="add-tasks">+ нэмэх </button>
 </div>`
+main.innerHTML = container;
 
 
 let dateI = document.getElementsByTagName("i")[0];
