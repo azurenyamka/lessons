@@ -1,17 +1,49 @@
 
 let productList = document.querySelector(".productList");
+let categoryEl = document.querySelector(".category");
 let cartProducts = [];
 let allProducts = [];
+let allCategories = [];
+
+
+const getCategoryByType = async (category) => {
+    const response = await fetch (`https://dummyjson.com/products/category/${category}`);
+    const data = await response.json();
+    allProducts = data.products;//[{},{}]
+    renderProducts(); 
+}
+
+
+const getCategories = async () => {
+    const response = await fetch('https://dummyjson.com/products/categories');
+    const  data = await response.json();
+    allCategories = data;
+    renderCategories(data);
+    // console.log(data);
+};
+getCategories();
+
+function renderCategories(categories) {
+    console.log(categories);
+    categoryEl.innerHTML = "";
+    categories.forEach((category)=>{
+        categoryEl.innerHTML += `
+        <button onclick="getCategoryByType('${category}')" class="category-btn">${category}</button>`
+    })
+}
+
+
 const getProducts = async () => {
     const response = await fetch('https://dummyjson.com/products');
     const data = await response.json();
     console.log(data);
     allProducts = data.products;//[{},{}]
-    renderProducts(data.products); 
+    renderProducts(); 
 };
 
-function renderProducts(products) {//30 shirheg itemtai array bgaa
-     products.forEach((product, index)=> {
+function renderProducts() {//30 shirheg itemtai array bgaa
+    productList.innerHTML = "";
+     allProducts.forEach((product, index)=> {
         productList.innerHTML += `<div class="col-12 col-md-3 col-lg-3">
         <div class="card" style="width: 18rem;">
             <img style="width:100%; height:200px;" class="card-img-top" src=${product.thumbnail} alt="Card image cap">

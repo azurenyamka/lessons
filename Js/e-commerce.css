@@ -91,3 +91,16 @@ input {
 main{
     overflow-x: hidden;
 }
+.categories {
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+}
+.sorter-btn {
+    width:100px;
+    height: 100%;
+}
+.categories-item-1  {
+
+}
+
