@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.cap    {
+    margin-left: 50px;
+}
+.container-1 {
+    margin-left: 50px;
+}
+.add-btn    {
+    margin-top: 20px;
+    width: 160px;
+    border: none;
+    border-radius: 20px;
+}
+.add-btn:hover{
+    color:rgb(133, 169, 209);   
+}
